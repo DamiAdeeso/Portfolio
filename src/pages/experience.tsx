@@ -47,10 +47,23 @@ export default function Experience() {
         <Description>
         I am passionate about creating full stack projects with my major specialization being in backend development4, seeking to
           Always hone my skills and learn new technologies.
-          I'm always open to new challenges and challenging projects.
+          I&rsquo;m always open to new challenges and challenging projects.
         </Description>
 
-        <TabsContainer>
+        <TabsContainer>{/* Before: */}
+<p>
+  I am passionate about creating full stack projects with my major specialization being in backend development4, seeking to
+  Always hone my skills and learn new technologies.
+  I&rsquo;m always open to new challenges and challenging projects.
+</p>
+
+{/* After: */}
+<p>
+  I am passionate about creating full stack projects with my major specialization being in backend development, seeking to
+  Always hone my skills and learn new technologies.
+  I&rsquo;m always open to new challenges and challenging projects.
+</p>
+
           <Tabs
             className="tabs"
             selectedIndex={tabIndex}
@@ -87,7 +100,7 @@ export default function Experience() {
                     <div className="title-container">
                       <div className="title-content">
                         <div>
-                          <img src={experience.img} alt={experience.title} />
+                          <Image src={experience.img} alt={experience.title} />
                         </div>
                         <div className="title">
                           <h1>{experience.title}</h1>

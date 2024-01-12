@@ -1,15 +1,16 @@
-import Head from 'next/head'
-import { Contact } from '../components/Contact'
-import { Footer } from '../components/Footer'
-import { Header } from '../components/Header'
-import { Links } from '../components/Links'
-import { ScrollTop } from '../components/ScrollTop'
+import Head from 'next/head';
+import { Contact } from '../components/Contact';
+import { Footer } from '../components/Footer';
+import { Header } from '../components/Header';
+import { Links } from '../components/Links';
+import { ScrollTop } from '../components/ScrollTop';
 
-export default function Contacts() {
+// Give your function a name (e.g., ContactsPage)
+function ContactsPage() {
   return (
     <>
       <Head>
-        <title>Contact |Adeeso Oluwadamilola </title>
+        <title>Contact | Adeeso Oluwadamilola </title>
         <meta
           name="description"
           content="Feel free to reach out and let's talk about how we can work together."
@@ -27,5 +28,9 @@ export default function Contacts() {
       <Contact />
       <Footer />
     </>
-  )
+  );
 }
+
+// Export the named function as the default export
+export default ContactsPage;
+

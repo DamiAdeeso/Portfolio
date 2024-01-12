@@ -12,6 +12,7 @@ import { GrMail } from 'react-icons/gr'
 import { FaDiscord } from 'react-icons/fa'
 import * as S from '../styles/about'
 import { ButtonAlt, Section, Title } from '../styles/styles'
+import Image from 'next/image'
 
 export default function About () {
   return (
@@ -44,11 +45,7 @@ export default function About () {
 
           <S.AboutContent>
             <S.AboutImage>
-              <img
-                className='AboutImg'
-                src='/dami.jpg'
-                alt='my image'
-              />
+              <Image className='AboutImg' src='/dami.jpg' alt='my image' />
 
               <div className='links'>
                 <ul>
@@ -95,9 +92,8 @@ export default function About () {
               </div>
 
               <S.AboutContact>
-                <h3>
-                Let's talk, maybe create an amazing project together?
-                </h3>
+              <h3>Let&rsquo;s talk, maybe create an amazing project together?</h3>
+
                 <p>Send me a message! 😉</p>
                 <Link href={'/contact'}>
                   <a>
@@ -166,8 +162,8 @@ export default function About () {
                 As I continue to evolve in the dynamic field of software
                 engineering, I am excited about the prospect of contributing to
                 innovative projects and collaborating with like-minded
-                professionals. Let's build a future where technology creates
-                positive change.
+                professionals. Let&apos;s build a future where technology
+                creates positive change.
               </p>
             </S.AboutDescription>
           </S.AboutContent>

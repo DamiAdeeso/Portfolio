@@ -10,7 +10,7 @@ const bodySchema = z.object({
 
 const WEBHOOK_URL = process.env.NEXT_PUBLIC_WEBHOOK_URL as string
 
-export default async (req: NextApiRequest, res: NextApiResponse) => {
+const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   try {
     const data = await req.body
     const { name, email, message } = bodySchema.parse(data)
@@ -50,3 +50,5 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     })
   }
 }
+
+export default handler;
