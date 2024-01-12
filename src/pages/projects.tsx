@@ -55,7 +55,7 @@ export default function Projects() {
           </span>
         </T.Title>
         <T.Description>
-        Here you can see some of the work I've done. Navigate to
+        Here you can see some of the work I& ve done. Navigate to
           and explore the projects to see how they were created, the
           technologies used and the functionalities implemented.
         </T.Description>
