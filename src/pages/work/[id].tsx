@@ -18,7 +18,7 @@ export default function Projeto({ work }: WorkProps) {
   return (
     <>
       <Head>
-        <title>{work.title} | Evander Inácio </title>
+        <title>{work.title} | Adeeso Oluwadamilola </title>
         <meta name="description" content={work.description} />
         <meta property="og:title" content={work.title} />
         <meta property="og:description" content={work.description} />
@@ -97,7 +97,7 @@ export default function Projeto({ work }: WorkProps) {
                 weight="bold"
                 size={18}
               />{' '}
-              Voltar
+             Back
             </a>
           </ButtonSecondary>
         </Link>

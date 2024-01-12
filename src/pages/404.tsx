@@ -79,10 +79,10 @@ export default function Error() {
         <Image src="/vectors/404.svg" alt="404" />
 
         <Content>
-          <span>Ei! Parece que você está perdido :(</span>
+          <span>Hey! Looks like you're lost :(</span>
           <h1>
             {' '}
-            404 <br /> Pagina não encontrada
+            404 <br /> Page not found
           </h1>
           <Link href={'/'}>
             <ButtonAlt>

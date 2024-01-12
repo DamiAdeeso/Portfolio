@@ -9,9 +9,9 @@ import Document, {
 import { ServerStyleSheet } from 'styled-components'
 
 const meta = {
-  title: 'Evander Inácio - Desenvolvedor Front-End',
+  title: '  Adeeso Oluwadamilola - Full Stack Developer',
   description:
-    'Desenvolvedor Front-end do Brasil. Especializado em criação de interfaces e funcionalidades para aplicativos da web usando React.js e Next.js.',
+    'A full Stack Developer from Lagos, Nigeria. Ready to bring my experience to collaborative teams, Experienced in Java, Spring, React and other technologies',
   image:
     'https://raw.githubusercontent.com/EvanderInacio/Portfolio/main/public/ogimage.png'
 }
@@ -42,25 +42,25 @@ export default class MyDocument extends Document {
       <Html lang="pt-BR">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="author" content="Evander Inácio" />
+          <meta name="author" content="Adeeso Oluwadamilola" />
           <meta name="description" content={meta.description} />
           <meta itemProp="name" content={meta.title} />
           <meta itemProp="description" content={meta.description} />
           <meta itemProp="image" content={meta.image} />
           <meta
             name="keywords"
-            content="Evander, Evander Inacio, desenvolvedor, website, programador, front-end, personal website, developer, portfolio, sites, web, são paulo, sp, JavaScript, TypeScript, ReactJS, NextJS, software, aplicações, Freelancer, portfolio developer, e-commerce, Evander portfolio"
+            content="Adeeso, Adeeso Oluwadamilola, Spring MVC, Postgres, SQL, SpringBoot, Java developer, website, programmer, front-end, personal website, developer, portfolio, sites, web, lagos, sp, JavaScript, TypeScript, ReactJS, NextJS, software, aplicações, Freelancer, portfolio developer, e-commerce, Adeeso portfolio"
           />
 
           <meta name="theme-color" content="#00d9ff" />
-          <meta name="copyright" content="Evander Inácio 2023" />
+          <meta name="copyright" content="Adeeso Oluwadamilola 2024" />
           <meta http-equiv="content-language" content="pt-br" />
           <meta name="robots" content="index, follow" />
           <meta http-equiv="cache-control" content="no-cache" />
           <meta http-equiv="pragma" content="no-cache" />
           <meta name="language" content="pt-BR" />
           <meta name="rating" content="general" />
-          <link rel="canonical" href="https://www.evander.com.br/" />
+          <link rel="canonical" href="https://www.damiadeeso.vercel.app/" />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -69,9 +69,9 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <meta property="og:url" content="https://www.evander.com.br/" />
+          <meta property="og:url" content="https://www.damiadeeso.vercel.app/" />
           <meta property="og:type" content="website" />
-          <meta property="og:site_name" content="Evander Inácio" />
+          <meta property="og:site_name" content="Adeeso Oluwadamilola" />
           <meta property="og:title" content={meta.title} />
           <meta property="og:description" content={meta.description} />
           <meta property="og:image" content={meta.image} />
