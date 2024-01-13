@@ -37,10 +37,10 @@ export default function Resume() {
       <ScrollTop />
       <Section>
         <Title>
-          <p>../curriculum</p>
-          Currículo
+          <p>../Resume</p>
+          Resume
           <span>
-            <BsFileText /> Curriculum
+            <BsFileText /> Resume
           </span>
         </Title>
         <Description>
@@ -53,7 +53,7 @@ export default function Resume() {
             allowFullScreen
             width="740"
             height="780"
-            title="Evander Inácio"
+            title="Adeeso Oluwadamilola"
           />
 
           <CV />
