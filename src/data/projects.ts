@@ -1,38 +1,38 @@
 const projects = [
   {
     id: 1,
-    url: 'e-shop',
+    url: 'Shelflive',
     banner: '/projects/e-shop/banner.png',
-    img: '/projects/e-shop/home.png',
-    title: 'E-Shop',
-    type: 'Website',
-    icon: '/projects/e-shop/logo.svg',
+    img: '/projects/e-shop/shelflive-page.png',
+    title: 'Shelflive',
+    type: 'Desktop Application',
+    icon: '/projects/e-shop/shelflive-logo.png',
     github: 'https://github.com/EvanderInacio/E-Shop',
     web: 'https://ecommerce-e-shop.vercel.app/',
     description:
-      'Este projeto é uma implementação de um site de e-commerce completo, construído com as tecnologias Next.js, Tailwind CSS e integração de pagamentos utilizando Stripe. O objetivo é criar uma plataforma de compras online moderna, responsiva e de fácil utilização.',
+      'ShelfLive is a powerful desktop application designed to elevate laboratory inventory management. Developed using React for the user interface, JavaScript for logic, MongoDB for data storage, and the Electron framework for cross-platform compatibility, ShelfLive empowers laboratories to efficiently track, manage, and optimize their inventory processes.',
     tags: [
       {
-        name: 'Next JS',
-        icon: '/skills/next-js.svg',
+        name: 'React',
+        icon: '/skills/react.svg',
         color: '#FFFFFF',
         rgb: '255, 255, 255'
       },
       {
-        name: 'TypeScript',
-        icon: '/skills/typescript.svg',
+        name: 'Javascript',
+        icon: '/skills/javascript.svg',
         color: '#3178C6',
         rgb: '49, 120, 198'
       },
       {
-        name: 'TailwindCSS',
+        name: 'Electron',
         icon: '/skills/tailwindcss.svg',
         color: '#38BDF8',
         rgb: '56, 189, 248'
       },
       {
-        name: 'Stripe',
-        icon: '/skills/stripe.svg',
+        name: 'Mongo DB',
+        icon: '/skills/mongodb.svg',
         color: '#635BFF',
         rgb: '99, 91, 255'
       },
