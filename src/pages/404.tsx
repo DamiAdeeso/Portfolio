@@ -76,7 +76,12 @@ export default function Error() {
       </Head>
       
       <Styles404>
-        <Image src="/vectors/404.svg" alt="404" />
+      <Image
+  src="/vectors/404.svg"
+  alt="404 Image"
+  layout="fill"
+  objectFit="cover" 
+/>
 
         <Content>
           <span>Hey! Looks like you&rsquo;re lost :(</span>
