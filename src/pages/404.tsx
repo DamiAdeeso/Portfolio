@@ -79,7 +79,7 @@ export default function Error() {
         <Image src="/vectors/404.svg" alt="404" />
 
         <Content>
-          <span>Hey! Looks like you're lost :(</span>
+          <span>Hey! Looks like you&rsquo;re lost :(</span>
           <h1>
             {' '}
             404 <br /> Page not found
