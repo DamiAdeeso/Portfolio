@@ -19,7 +19,7 @@ export function Projects() {
   return (
     <Container id="projects">
       <Title>
-        Projetos
+        Projects
         <span>
           <HiOutlineDesktopComputer /> Projects
         </span>
@@ -62,7 +62,7 @@ export function Projects() {
         })}
       </ProjectsContainer>
 
-      <AllProjects title={'Todos os projetos'} />
+      <AllProjects title={'All Projects'} />
     </Container>
   )
 }

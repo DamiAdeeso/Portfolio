@@ -4,52 +4,49 @@ import { Button, Container, ButtonAlternatives } from '../../styles/styles'
 import { AboutContainer } from './styles'
 import { ArrowRight, TelegramLogo } from 'phosphor-react'
 
-export function About() {
+export function About () {
   return (
     <Container>
       <AboutContainer>
-        <div className="AboutImg">
+        <div className='AboutImg'>
           <Image
             width={500}
             height={500}
-            className="AboutImg"
-            src="/about.svg"
-            alt="Imagem de perfil"
+            className='AboutImg'
+            src='/about.svg'
+            alt='Imagem de perfil'
           />
         </div>
 
-        <div className="aboutContent">
-          <div className="aboutDescription">
-            <h2>Deixe-me apresentar</h2>
+        <div className='aboutContent'>
+          <div className='aboutDescription'>
+            <h2>A little about myself ...</h2>
             <p>
-              Sou um desenvolvedor front-end apaixonado por projetar e
-              codificar. Minha especialidade é a criação de interfaces e
-              funcionalidades para aplicativos da web usando React.js e Next.js.
+              As a committed Software Engineer, I possess expertise in both
+              frontend and backend development. I specialize in utilizing
+              frameworks like Spring Boot, Spring MVC, Java2EE, Node.js,
+              Express.js, and NestJS. Additionally, I am proficient in frontend
+              technologies, including HTML, CSS, Bootstrap, and React. My
+              comprehensive approach to software development is complemented by
+              my proficiency in Java, Python, and JavaScript.
               <br />
-              Você pode conhecer mais sobre o meu perfil e o meu trabalho
-              navegando pelo website.
+              A recent graduate in Electronics and Computer Engineering, I am well-prepared and enthusiastic about continuous improvement in the field. My diverse skill set positions me as a valuable asset to innovative and collaborative teams.
             </p>
 
-            <strong>
-              P.S. este site é código aberto e está disponível no{' '}
-              <Link href={'https://github.com/EvanderInacio/Portfolio'}>
-                <a target='_blank'>Github</a>
-              </Link>
-            </strong>
           </div>
 
           <div className='aboutButton'>
             <Link href={'/contact'}>
               <a>
                 <Button>
-                  Entre em contato
+                  Contact
                   <TelegramLogo
                     style={{
                       marginBottom: '-0.1rem',
-                      marginLeft: '0.2rem',
+                      marginLeft: '0.2rem'
                     }}
                     size={16}
-                    weight="bold"
+                    weight='bold'
                   />
                 </Button>
               </a>
@@ -57,13 +54,13 @@ export function About() {
             <Link href={'/about'}>
               <a>
                 <ButtonAlternatives>
-                  Ler mais
+                Read more
                   <ArrowRight
                     style={{
                       marginBottom: '-0.1rem',
                       marginLeft: '0.2rem'
                     }}
-                    weight="bold"
+                    weight='bold'
                     size={16}
                   />
                 </ButtonAlternatives>

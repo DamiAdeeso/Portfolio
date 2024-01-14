@@ -9,7 +9,7 @@ export function Work() {
   return (
     <Container id="work">
       <Title>
-        Trabalho
+      Work
         <span>
           <BiBarChartSquare /> Work
         </span>

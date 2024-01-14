@@ -22,7 +22,7 @@ export function HomeHero() {
                 width={200}
                 height={200}
                 src="/vectors/triangle.svg"
-                alt="Imagem de um triangulo com animação de giro"
+                alt="Image of a triangle with rotation animation"
               />
             </span>
           </h1>
@@ -56,7 +56,7 @@ export function HomeHero() {
               width={150}
               height={150}
               src="/vectors/dino.svg"
-              alt="dinossauro"
+              alt="dinossaur"
             />
           </div>
         </ImgHome>

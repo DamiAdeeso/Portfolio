@@ -16,7 +16,7 @@ export function Experience() {
   return (
     <Container>
       <Title>
-        Experiência
+      Experience
         <span>
           <Briefcase /> Experience
         </span>

@@ -30,13 +30,13 @@ export function Form() {
     
     try {
       await sendContactMail(name, email, message)
-      toast.success('Mensagem enviada com sucesso!')
+      toast.success('Message sent successfully!')
       setName('')
       setEmail('')
       setMessage('')
       reset()
     } catch (error) {
-      toast.error('Ocorreu um erro ao enviar a mensagem. Tente novamente.')
+      toast.error('An error occurred while sending the message. Try again.')
     }
   }
 
@@ -102,7 +102,7 @@ export function Form() {
       </div>
 
       <ButtonSecondary type="submit">
-        Enviar <TelegramLogo size={15} weight="bold" />{' '}
+        Send <TelegramLogo size={15} weight="bold" />{' '}
       </ButtonSecondary>
     </FormContent>
   )

@@ -47,7 +47,7 @@ export default function Experience() {
         <Description>
           I am passionate about creating full stack projects with my major
           specialization being in backend development, seeking to always hone my
-          skills and learn new technologies. I'm always open to new challenges
+          skills and learn new technologies. I&rsquo;m always open to new challenges
           and challenging projects.
         </Description>
 

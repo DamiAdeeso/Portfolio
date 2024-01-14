@@ -28,7 +28,7 @@ export function Header() {
               />
             </div>
 
-            {'Evander'.split('').map((letter, index) => {
+            {'DamiAdeeso'.split('').map((letter, index) => {
               return (
                 <span key={index} className="logo-name">
                   {letter}
