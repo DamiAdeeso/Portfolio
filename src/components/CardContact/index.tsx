@@ -18,7 +18,7 @@ export function CardContact() {
         </div>
         <CardContactContent>
           <div className="description">
-            <h2>Let's talk!</h2>
+            <h2>Let&rsquo;s talk!</h2>
             <p>
             If you have any questions or just would like to say hello, please get in touch
               contact me. I will do my best to contact you!
@@ -30,7 +30,7 @@ export function CardContact() {
               width={480} 
               height={500} 
               src="/contact.svg" 
-              alt="imagem de contato" 
+              alt="image for contact"
             />
           </div>
         </CardContactContent>
