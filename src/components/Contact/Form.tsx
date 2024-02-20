@@ -13,7 +13,8 @@ const contactFormSchema = z.object({
   email: z.string().email(),
   message: z.string().min(2).max(1000)
 })
-
+//put error here to stop live
+mddkd
 type ContactFormData = z.infer<typeof contactFormSchema>
 
 export function Form() {
